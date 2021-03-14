@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.element {
+    hyphens: manual;
+}
+
+.element * {
+    box-sizing: border-box;
+}
+
+.element-section {
+    position: relative;
+}
+
+.element.element-hero-image {
+    background-image: url(../img/hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.element.element-hero-image {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 0px 0px;
+}
+
+.element .element-background-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.element.element-hero-image > .element-background-overlay {
+    background-color: #424242;
+    opacity: 0.75;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.element.element-hero-image > .element-container {
+    min-height: 600px;
+}
+
+.element-section .element-container {
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}

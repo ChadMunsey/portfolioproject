@@ -96,6 +96,7 @@ a:hover.main-btn {
 .navbar-toggler-icon {
     vertical-align: baseline;
 }
+
 .navbar-toggler-icon::before {
     font-family: FontAwesome;
     content: "\f0c9"; /* fa-bars, fa-navicon */
@@ -203,15 +204,8 @@ a:hover.hero-btn {
     margin-right: 8px;
 }
 
-
-
-
-
 /* episode section */
 
-.episode-row {
-
-}
 
 .episode-section img {
     height: auto;
@@ -360,4 +354,62 @@ a:hover.message-btn {
 .copyright {
     margin-top: 100px;
     font-size: .75em;
+}
+
+/* episode page */
+
+.alt-page {
+    min-height: auto;
+}
+
+.alt-page .heroimage-container {
+    height: auto;
+}
+
+.alt-page .heroimage-row {
+    position: absolute;
+    top: 60%;
+}
+
+.listen-section {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.listen-section ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.listen-section li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.listen-links a {
+    color: black;
+    display: inline-block;
+}
+
+.listen-links ul a:hover {
+    text-decoration: none;
+}
+
+.listen-section i {
+    color: black;
+    font-size: 19px;
+}
+
+.listen-links li svg {
+    width: 20px;
+}
+
+.listen-links svg path {
+    fill: #000000;
+}
+
+.listen-section .icon-text {
+    color: #00000;
 }

@@ -1,415 +1,428 @@
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
- 
- h1, h2, h3, h4, p {
-    font-family: "Montserrat", cursive;
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Montserrat", cursive;
 }
 
 .left {
-    text-align: left;
+  text-align: left;
 }
 .right {
-    text-align: right;
+  text-align: right;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .add-top-margin {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 .add-bot-margin {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover.main-btn {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .section-pad {
-    position: relative;
-    padding: 100px 0px 100px 0px;
+  position: relative;
+  padding: 100px 0px 100px 0px;
 }
 
 .social-icon i {
-    font-size: 25px;
-    color: white;
-    width: 1.9em;
-    height: 1.9em;
-    border-radius: 50%;
-    text-align: center;
-    padding: .5em;
-    margin-right: 15px;
+  font-size: 25px;
+  color: white;
+  width: 1.9em;
+  height: 1.9em;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.5em;
+  margin-right: 15px;
 }
 
 .social-icon .fa-twitter {
-    background-color: #1da1f2;
+  background-color: #1da1f2;
 }
 
 .social-icon .fa-facebook-f {
-    background-color: #3B5998;
+  background-color: #3b5998;
 }
 
 .backgroundcolor-f3 {
-    background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 
 /* header section */
 
 .header-nav {
-    padding: 14px 0px 14px 0px;
-    z-index: 99;
-    position: absolute;
-    width: 100%;
-    
+  padding: 14px 0px 14px 0px;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
 }
 
 .nav-row {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar {
-    padding: 0;
+  padding: 0;
 }
 
 .navbar-brand.nav-logo {
-    padding: 13px 0px;
-    margin-right: auto;
+  padding: 13px 0px;
+  margin-right: auto;
 }
 
 .navbar-toggler {
-    border: 0;
-    padding: 0;
-    font-size: 1.75em;
+  border: 0;
+  padding: 0;
+  font-size: 1.75em;
 }
 
 .navbar-toggler-icon {
-    vertical-align: baseline;
+  vertical-align: baseline;
 }
 
 .navbar-toggler-icon::before {
-    font-family: FontAwesome;
-    content: "\f0c9"; /* fa-bars, fa-navicon */
-    color: white;
+  font-family: FontAwesome;
+  content: "\f0c9"; /* fa-bars, fa-navicon */
+  color: white;
 }
 
 .navbar ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar li:not(:last-child) {
-    list-style: none;
-    display: inline-block;
-    margin-right: 20px;
-
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .navbar a {
-    padding: 13px 0px;
-    color: white;
+  padding: 13px 0px;
+  color: white;
 }
 
 .navbar a:hover {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
+/*******************/
 /* hero image area */
+/*******************/
 
 .hero-image {
-    background-image: url(../img/hero_1.jpg);
-    min-height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;  
-    color: white;
-}
-
-.hero-text {
-    text-align: center;
-    position: absolute;
-    transform: translate(-50%, -50%);
+  background-image: url(../img/hero_1.jpg);
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
 }
 
 .heroimage-section {
-    background-image: url(../img/hero_1.jpg);
-    min-height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;  
-    color: white;
+  background-image: url(../img/hero_1.jpg);
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
 }
 
 .background-overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background-color: #424242;
-    opacity: 0.75;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #424242;
+  opacity: 0.75;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .heroimage-container {
-    height: 600px;
+  height: 600px;
 }
 
 .heroimage-row {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 75%;
+  margin: 0;
+}
+
+.heroimage-row .col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hero-logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-text {
+  position: absolute;
+  top: 25%;
 }
 
 .hero-btn {
-    display: inline-block;
-    font-size: 10px;
-    color: black;
-    background-color: #00FFFF;
-    border-radius: 25px;
-    padding: 5px 30px;
-    margin-top: 25px;
+  display: inline-block;
+  font-size: 10px;
+  color: black;
+  background-color: #00ffff;
+  border-radius: 25px;
+  padding: 5px 30px;
+  margin-top: 25px;
 }
 
 a:hover.hero-btn {
-    text-decoration: none;
-    color: black;
-    background-color: #01DFD7;
+  text-decoration: none;
+  color: black;
+  background-color: #01dfd7;
 }
 
 .hero-btn-wrapper {
-    justify-content: center;
-    display: flex;
+  justify-content: center;
+  display: flex;
 }
 
 .hero-btn i {
-    font-size: 10px;
-    margin-right: 8px;
+  font-size: 10px;
+  margin-right: 8px;
 }
 
 /* episode section */
 
-
 .episode-section img {
-    height: auto;
-    max-width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .episode-btn {
-    display: inline-block;
-    font-size: 15px;
-    color: black;
-    background-color: transparent;
-    border: 1px solid black;
-    border-radius: 25px;
-    padding: 5px 30px;
+  display: inline-block;
+  font-size: 15px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 5px 30px;
 }
 
 a:hover.episode-btn {
-    text-decoration: none;
-    color: black;
-    background-color: #E6E6E6;
+  text-decoration: none;
+  color: black;
+  background-color: #e6e6e6;
 }
 
 .episode-btn-wrapper {
-    min-width: 200px;
-    justify-content: center;
-    display: flex;
+  min-width: 200px;
+  justify-content: center;
+  display: flex;
 }
 
 .episode-btn i {
-    font-size: 15px;
-    margin-right: 8px;
+  font-size: 15px;
+  margin-right: 8px;
 }
 
 .episode-section .main-btn {
-    margin-top: 50px;
+  margin-top: 50px;
 }
-
-
 
 /* body section */
 
 .heading-row {
-    margin-bottom: 20px;
-    padding: 0;
+  margin-bottom: 20px;
+  padding: 0;
 }
 
 /* podcast platform */
 
 .pp-button-wrapper {
-    margin: 56px 0px 0px 0px;
-    text-align: center;
+  margin: 56px 0px 0px 0px;
+  text-align: center;
 }
 
 .pp-btn-col {
-    padding: 0;
+  padding: 0;
 }
 
 .main-btn {
-    display: inline-block;
-    line-height: 1;
-    font-size: 15px;
-    text-align: center;
-    width: auto;
-    text-transform: uppercase;
-    fill: #FFFFFF;
-    color: #FFFFFF;
-    background-color: #000000;
-    border-radius: 50px 50px 50px 50px;
-    padding: 18px 28px 18px 28px;
+  display: inline-block;
+  line-height: 1;
+  font-size: 15px;
+  text-align: center;
+  width: auto;
+  text-transform: uppercase;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 50px 50px 50px 50px;
+  padding: 18px 28px 18px 28px;
 }
 
 .pp-button-content-wrapper {
-    min-width: 200px;
-    justify-content: center;
-    display: flex;
+  min-width: 200px;
+  justify-content: center;
+  display: flex;
 }
 
 .pp-button-icon {
-    margin-right: 15px;
-    font-size: 2em;
+  margin-right: 15px;
+  font-size: 2em;
 }
 
 .pp-button-icon svg {
-    width: 1em;
+  width: 1em;
 }
 
 .pp-button-text {
-    line-height: 2.2em;
+  line-height: 2.2em;
 }
 
 /* host section */
 
 .host-section .social-icon i {
-    height: 1.3em;
-    width: 1.3em;
-    padding: .2em;
-    font-size: 20px;
-    margin-right: 5px;
+  height: 1.3em;
+  width: 1.3em;
+  padding: 0.2em;
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 /* footer section */
 
 .footer-section {
-    background-image: url(../img/hero_1.jpg);
-    background-position: center;
-    background-size: cover;
-    color: white;
-    padding-bottom: 0px;
+  background-image: url(../img/hero_1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding-bottom: 0px;
 }
 
 .footer-section .message-btn {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 a:hover.message-btn {
-    color: black;
-    background-color: #E0F2F7;
+  color: black;
+  background-color: #e0f2f7;
 }
 
 .ftr-btn-wrapper {
-    min-width: 150px;
-    justify-content: center;
-    display: flex;
+  min-width: 150px;
+  justify-content: center;
+  display: flex;
 }
 
 .footer-section .social-icon-wrapper {
-    margin-top: -.4em;
+  margin-top: -0.4em;
 }
 
 .patreon-btn {
-    background-color: #F96854;
-    font-size: 16px;
-    padding: 8px 12px;
-    border-radius: 0px;
+  background-color: #f96854;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 0px;
 }
 
 .patreon-btn-icon {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .patreon-btn-icon svg {
-    width: 1em;
+  width: 1em;
 }
 
 .copyright {
-    margin-top: 100px;
-    font-size: .75em;
+  margin-top: 100px;
+  font-size: 0.75em;
 }
 
 /* episode page */
 
 .alt-page {
-    min-height: auto;
+  min-height: auto;
 }
 
 .alt-page .heroimage-container {
-    height: auto;
+  height: auto;
 }
 
 .alt-page .heroimage-row {
-    position: absolute;
-    top: 60%;
+  position: absolute;
+  top: 60%;
 }
 
 .listen-section {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .listen-section ul {
-    margin: 0;
-    padding: 0;
-    display: block;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 
 .listen-section li {
-    list-style: none;
-    display: inline-block;
-    padding: 0px 10px;
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
 }
 
 .listen-links a {
-    color: black;
-    display: inline-block;
+  color: black;
+  display: inline-block;
 }
 
 .listen-links ul a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .listen-section i {
-    color: black;
-    font-size: 19px;
+  color: black;
+  font-size: 19px;
 }
 
 .listen-links li svg {
-    width: 20px;
+  width: 20px;
 }
 
 .listen-links svg path {
-    fill: #000000;
+  fill: #000000;
 }
 
 .listen-section .icon-text {
-    color: #00000;
+  color: #00000;
 }

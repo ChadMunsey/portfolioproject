@@ -14,22 +14,22 @@
 
     <body>
         <header class="header-nav">
-            <div class="container">
-                <nav class="navbar navbar-expand-md">
-                    <div class="container">                
-                        <div class="col-sm-6">
-                            <!-- <a class="navbar-brand nav-logo" href="/">Scaling Mountains</a> -->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+            <nav class="navbar navbar-expand-md" aria-label="main navigation">
+                <div class="container-fluid justify-content-end">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon" data-bs-target="#offcanvasNavbar"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" data-bs-hideresize="true" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                            <ul class="navbar-nav">
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">HOME</a>
+                                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/#about">ABOUT</a>
+                                    <a class="nav-link" href="/about.html">ABOUT</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/episodes.html">EPISODES</a>
@@ -38,26 +38,24 @@
                                     <a class="nav-link" href="/contactus.html">CONTACT</a>
                                 </li>
                             </ul>
-                        </div>      
+                        </div>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </header>          
         <section class="heroimage-section">
            <div class="background-overlay"></div>
             <div class="container heroimage-container">
                 <div class="row heroimage-row">
-                    <div class="col-md-6 left">
+                    <div class="col-md-8 col-lg-7 col-xl-6 left">
                         <img class="hero-logo" src="img/scalingmountains-logo.svg" alt="Scaling Mountains Logo" width="500" height="475">
-                        <div class="hero-text">
+                        <div class="col hero-text">
                             <h1>Scaling Mountains</h1>
                             <h4>Conquer Every Challenge.</h4>
                             <a href="#" class="hero-btn" role="button">
                                 <span class="hero-button-wrapper">
-                                    <span class="hero-button-icon">
-                                        <i class="fa fa-play"></i>
-                                    </span>
-                                    <span class="hero-button-text">PLAY LATEST EPISODE</span>
+                                    <i class="fa fa-play"></i>
+                                    <span>PLAY LATEST EPISODE</span>
                                 </span>
                             </a>
                         </div>
